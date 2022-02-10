@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-	history: createWebHistory('/list-with-products/'),
+	history: createWebHistory(),
 	routes,
 });
 
